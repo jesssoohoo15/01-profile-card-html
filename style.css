@@ -1,0 +1,80 @@
+/* Global page styles */
+body {
+    /* light blue page background */
+    background-color: lightblue;
+    /* clean sans-serif font for the whole page */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* dark text for good contrast */
+    color: #222;
+}
+
+/* Center the main content area on the page */
+main {
+    display: block;
+    /* limit width so content stays readable */
+    max-width: 40rem;
+    /* center horizontally and add vertical space */
+    margin: 2rem auto;
+    /* add horizontal padding inside the page wrapper */
+    padding: 0 1rem;
+}
+
+/* Profile card container styling */
+.profile-card {
+    /* white background makes the card stand out */
+    background-color: #fff;
+    /* subtle blue border for definition */
+    border: 1px solid #a9c4e7;
+    /* rounded corners for a softer card look */
+    border-radius: 12px;
+    /* inner spacing inside the card */
+    padding: 1.5rem;
+    /* include padding in the element width calculation */
+    box-sizing: border-box;
+}
+
+/* Main heading styling */
+h1 {
+    font-size: 2.5em;
+    /* center the heading text in the card */
+    text-align: center;
+    /* navy blue color for strong contrast */
+    color: navy;
+}
+
+/* Profile photo styling */
+.profile-photo {
+    /* keep the image inside the card width */
+    display: block;
+    max-width: 100%;
+    width: 180px;
+    height: auto;
+    margin: 0.5rem auto 0.5rem;
+    border-radius: 50%;
+    border: 2px solid #a9c4e7;
+}
+
+/* Subheading styling */
+h2 {
+    font-size: 1.8em;
+    /* center the subheading text with the main heading */
+    text-align: center;
+    /* slate gray gives a softer secondary tone */
+    color: slategray;
+}
+
+/* Paragraph text styling */
+p {
+    /* readable paragraph font size */
+    font-size: 18px;
+    /* line height for comfortable reading */
+    line-height: 1.6;
+    /* spacing around the paragraph block */
+    margin: 0.5rem 1rem;
+    /* left-align paragraph text */
+    text-align: left;
+    /* allow normal word breaks */
+    word-break: normal;
+    /* enable hyphenation for better line flow */
+    hyphens: auto;
+}
